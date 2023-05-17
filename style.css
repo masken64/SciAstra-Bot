@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  html {
+	  height: 100%;
+  
+  }
+  
+  body {
+	font-family: 'Roboto', 'Oxygen',
+	  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, Helvetica,
+	  sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: linear-gradient(rgb(60, 29, 216), rgb(206, 34, 245));
+	  height: 100%;
+	  margin: 0;
+  }
+  
+  span {
+	  padding-right: 15px;
+	  padding-left: 15px;
+  }
+  
+  .container {
+	  display: flex;
+	justify-content: center;
+	flex-direction: column-reverse;
+	  align-items: center;
+	  width: 100%;
+	  height: 100%;
+  }
+  
+  .div-img{
+	  border-radius: 50px;
+	  width: 300px;
+	  height: 300px;
+  }
+  
+  .chat {
+	  height: 300px;
+	  width: 50vw;
+	  display: flex;
+	  flex-direction: column;
+	justify-content: center;
+	  align-items: center;
+  } 
+  
+  ::-webkit-input-placeholder { 
+	  color: .711 
+  }
+   
+  input { 
+	  border: 0; 
+	  padding: 15px; 
+	  margin-left: auto;
+	  border-radius: 10px; 
+  }
+  
+  .messages {
+	  display: flex;
+	  flex-direction: column;
+	  overflow: scroll;
+	  height: 90%;
+	  width: 100%;
+	  background-color: rgb(224, 224, 224);
+	  padding: 15px;
+	  margin: 15px;
+	  border-radius: 10px;
+  }
+  
+  #bot {
+	  margin-left: auto;
+  }
+  
+  .bot {
+	  font-family: Consolas, 'Roboto', Menlo, source-code-pro, Monaco,  
+	  monospace;
+  }
+  
+  .avatar {
+	  height: 25px;
+  }
+  
+  .response {
+	  display: flex;
+	  align-items: center;
+	  margin: 1%;
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 980px) {
+	.container {
+		  flex-direction: column; 
+		  justify-content: flex-start;
+	  }
+	  .chat {
+		  width: 75vw;
+		  margin: 10vw;
+	  }
+  }
