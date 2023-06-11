@@ -1,6 +1,6 @@
 
 const prompts = [
-  ["hi", "hey", "hello", "good morning", "good afternoon"],
+  ["Hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
   ["who created you", "who made you"],
